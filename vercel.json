@@ -1,7 +1,16 @@
 {
-  "buildCommand": "cd zenro-candidate-interview-system (1) && npm install && npm run build",
-  "outputDirectory": "zenro-candidate-interview-system (1)/dist",
+  "buildCommand": "cd zenro-candidate-interview-system && npm install && npm run build",
+  "outputDirectory": "zenro-candidate-interview-system/dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
+```
+
+---
+
+**Step 3: In Vercel Dashboard**
+
+Go to **Settings → General → Root Directory** and set it to:
+```
+zenro-candidate-interview-system
