@@ -1,8 +1,7 @@
 {
+  "buildCommand": "cd zenro-candidate-interview-system (1) && npm install && npm run build",
+  "outputDirectory": "zenro-candidate-interview-system (1)/dist",
   "rewrites": [
-    { 
-      "source": "/(.*)", 
-      "destination": "/zenro-candidate-interview-system(1)/$1" 
-    }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
