@@ -2,7 +2,7 @@
   "rewrites": [
     { 
       "source": "/(.*)", 
-      "destination": "/zenro-candidate-interview-system (1)/$1" 
+      "destination": "/zenro-candidate-interview-system(1)/$1" 
     }
   ]
 }
