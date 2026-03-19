@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/zenro-candidate-interview-system (1)/$1" }
+    { 
+      "source": "/(.*)", 
+      "destination": "/zenro-candidate-interview-system (1)0/$1" 
+    }
   ]
 }
